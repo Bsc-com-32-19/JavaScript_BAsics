@@ -33,3 +33,29 @@ console.log("Enrolled:",student);
 document.getElementById("p1").innerHTML = "Hello " + firstName;
 document.getElementById("p2").innerHTML = "You are " + age + " years old ";
 document.getElementById("p3").innerHTML = "Enrolled: " + student;
+
+/* Arithmetic expression is a combination of ....
+   operands (values,variables,etc)
+   operands (+, -, *, /, %)
+   that csn be evaluated to avalue 
+   example,y = x + 5;
+*/
+let students = 20;
+
+ students = students + 1;
+  students = students - 1;
+  students = students / 2;
+  students = students * 2;
+ 
+  console.log(students)
+ 
+ let extraSteundents = students % 3;
+ console.log(extraSteundents)
+
+ // augumented operator
+ students += 1;
+ students -= 1;
+ students /= 2;
+ students *= 2;
+ 
+ console.log(students)
