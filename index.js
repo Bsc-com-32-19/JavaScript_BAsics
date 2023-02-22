@@ -57,5 +57,15 @@ let students = 20;
  students -= 1;
  students /= 2;
  students *= 2;
- 
+
  console.log(students)
+ /* operator precedence
+ 1.parenthseis()
+ 2.exponents
+ 3.multiplication & division
+ 4. addition & subtraction
+ */
+let result = 1 + 2 * (3 + 4);
+console.log(result);
+let results = (1 + 2) * (3 + 4);
+console.log(results);
