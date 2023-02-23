@@ -13,9 +13,9 @@
 //    }
    
 // // or 
-//    let username;
-// document.getElementById("myButton").onclick = function(myText){
+   let username;
+document.getElementById("myButton").onclick = function(myText){
 
-//    username = document.getElementById("myText").value;
-//    console.log(username);
-// }
+   username = document.getElementById("myText").value;
+   console.log(username);
+}
