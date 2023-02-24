@@ -10,7 +10,7 @@ let lastName;
 // lastName = fullName.slice(7);
 
 firstName = fullName.slice(0, fullName.indexOf(" "));
-lastName - fullName.slice(fullName.indexOf(" " ) );
+lastName = fullName.slice(fullName.indexOf(" " ) + 1);
 
 console.log(firstName);
 console.log(lastName);

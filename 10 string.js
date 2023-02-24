@@ -6,6 +6,7 @@ console.log(userName.length);
 console.log(userName.charAt(0));
 console.log(userName.indexOf("0"));
 console.log(userName.lastIndexOf("0"));
+
 userName = userName.trim();
 userName = userName.toLocaleUpperCase();
 userName = userName.toLowerCase();
