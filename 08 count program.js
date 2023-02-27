@@ -2,6 +2,7 @@ let count = 0;
 
 document.getElementById("decreaseBtn").onclick = function () {
   count -= 1;
+  
   document.getElementById("countlabel").innerHTML = count;
 };
 
