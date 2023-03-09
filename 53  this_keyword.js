@@ -1,0 +1,30 @@
+// this is the key word thst reference to a particular object.
+// the object depends on the immediate context.
+
+const car1 = {
+  model: "Mustang",
+  color: "Blue",
+  year: "2023",
+
+  drive : function(){
+    console.log(`You drive the car ${this.model}`);
+  }
+ 
+}
+
+
+
+const car2 = {
+  model: "Corvette",
+  color: "meroon",
+  year: "2025",
+
+  drive : function(){
+    console.log(`You drive the car ${this.model}`);
+  }
+  
+}
+
+car1.drive();
+car2.drive();
+
