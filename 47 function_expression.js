@@ -1,5 +1,5 @@
-// function expression is a function without a name 
-//(annonymous function) avoid polluting the global scope 
+// function expression is a function without a name
+//(annonymous function) avoid polluting the global scope
 //with write it, then forget about it
 
 // const greeting = function(){
@@ -10,16 +10,16 @@
 
 let count = 0;
 
-document.getElementById("increaseBtn").onclick = function(){
-    count +=1;
-    document.getElementById("myLabel").innerHTML = count;
-}
-
-document.getElementById("decreaseBtn").onclick = function (){
-  count -= 1;
-  document.getElementById("myLabel").innerHTML = count;
+const increaseButton = document.getElementById("increaseBtn");
+const countText = document.getElementById("myLabel");
+countText.style.fontSize = "50px";
+increaseButton.onclick = function () {
+  count += 1;
+  countText.innerHTML = count;
+  countText.style.color = "darkgreen";
 };
 
-
-
-
+document.getElementById("decreaseBtn").onclick = function () {
+  count -= 1;
+  countText.innerHTML = count;
+};
